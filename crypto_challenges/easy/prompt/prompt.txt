@@ -1,0 +1,1 @@
+I will make this look nicer and more fleshed out later but I will describe a hash function that will need to be implemented. They must find a collision with the hash function and submit the two pre images to the server. If there is a valid collision then the flag will be returned to them.
