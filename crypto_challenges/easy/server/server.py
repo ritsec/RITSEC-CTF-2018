@@ -5,13 +5,18 @@ from hash import hash_func
 
 import time
 
+ip_wait_list = {}
 
 app = Flask(__name__)
 
 @app.route('/checkCollision', methods=['POST'])
 def checkCollision():
+    if request_obj.remote_addr in ip_wait_list:
+        resp = jsonify({"success": False, "message": "Hi, you can only submit once per 5 seconds."})
+        resp.status_code = 401
+        return resp
+    ip_wait_list[request_obj.remote_addr] = 1
     success = False
-    time.sleep(5)
     message = "I am sorry that is not an actual collision."
     try:
         request_json = request_obj.get_json()
@@ -34,7 +39,9 @@ def checkCollision():
     else:
         resp = jsonify({"success": success, "message": message})
         resp.status_code = 403
+    time.sleep(10)
+    del ip_wait_list[request_obj.remote_addr]
     return resp
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=80, threaded=True)
