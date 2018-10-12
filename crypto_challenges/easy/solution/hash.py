@@ -125,5 +125,5 @@ def other_main():
 
 
 if __name__ == '__main__':
-    # other_main()
+    other_main()
     main()
