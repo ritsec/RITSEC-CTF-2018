@@ -16,7 +16,8 @@ prufer codes on the graphs will give you the following vertex sets
 {1}
 {1,1,1,1,3}
 
-from there simply add up all elements in the sets and then map them to the alphabet
+from there simply add up all elements in the sets and then map them to the
+alphabet
 
 {3,3,3}         -> 9  -> i
 {1}             -> 1  -> a
@@ -34,5 +35,8 @@ from there simply add up all elements in the sets and then map them to the alpha
 {1}             -> 1  -> a
 {1,1,1,1,3}     -> 7  -> g
 
-therefore the flag is RS{iamthegraphflag}
+The flag is slightly hidden through a transposition cipher, thus you must then
+transpose the matrix.
+
+then the flag is RC{iamthegraphflag}
 
