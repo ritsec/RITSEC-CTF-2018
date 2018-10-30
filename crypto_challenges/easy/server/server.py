@@ -34,7 +34,7 @@ def checkCollision():
     except:
         pass
     if success:
-        resp = jsonify({"success": success, "flag": "RS{I_am_th3_gr3@t3st_h@XOR_3v@}"})
+        resp = jsonify({"success": success, "flag": "RC{I_am_th3_gr3@t3st_h@XOR_3v@}"})
         resp.status_code = 202
     else:
         resp = jsonify({"success": success, "message": message})
