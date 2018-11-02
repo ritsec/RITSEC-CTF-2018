@@ -10,6 +10,10 @@ __Hint (No free hints please):__ Are we sure it's in the data?
 
 __Flag Format:__ RITSEC{XXXX}
 
+__Category:__ Forensics
+
+__Rank:__ Medium/Hard
+
 ## Usage
 The only file that needs to be given to the competitors is [`file_format.sql`](./file_format.sql). **Please keep the name the same as its a slight hint.**
 
