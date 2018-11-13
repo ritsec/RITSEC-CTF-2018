@@ -1,8 +1,7 @@
 # Crypto 150: CictroHash
+**Author**: Cictrone  
 
-**Author**: Cictrone
-
-**Description**: _None_300
+## Description
 See the attached PDF for an amazing new Cryptographic Hash Function called
 CictroHash. For this challenge you must implement the described Hash Function
 and then find a collision of two strings. Once a collision is found send both 
@@ -17,4 +16,20 @@ curl -X POST http://{{INSERT_SERVER}}/checkCollision \
 
 If the strings are a valid collision then the flag will be returned.
 
-**Files**: `CictroHash.pdf`
+## Deployment
+The following files must be provided to the user:
+- [`CictroHash.pdf`](./CictroHash.pdf)
+
+A docker container must be deployed for this challenge. It is a Flask webserver
+that runs on port 80. The following files are required to build this container:
+- [`Dockerfile`](./Dockerfile)
+- [`server.py`](./server.py)
+- [`hash.py`](./hash.py)
+- [`requirements.txt`](./requirements.txt)
+
+## Writeup
+The writeup directory contains the following files:
+- [`CictroHash.docx`](./writeup/CictroHash.docx): The `.docx` file used to
+  create `CictroHash.pdf`
+- [`hash.py`](./writeup/hash.py): An example script that will find a collision
+  in CictroHash
