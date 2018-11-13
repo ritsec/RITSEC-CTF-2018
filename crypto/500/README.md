@@ -8,7 +8,7 @@ Person1: applepearblue
 Person2: darkhorseai  
 
 What is their secret key?  
-(Submit like RC{KEY_GOES_HERE})  
+(Submit like RITSEC{KEY_GOES_HERE})  
 
 ## Deployment
 No files need to be provided to the user, and no services must be deployed for

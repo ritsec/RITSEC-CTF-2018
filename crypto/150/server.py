@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from flask import request as request_obj
 
-from hash import hash_func 
+from hash import hash_func
 
 import time
 
@@ -25,8 +25,8 @@ def checkCollision():
         else:
             digest1 = hash_func(str(request_json['str1']))
             digest2 = hash_func(str(request_json['str2']))
-            digest_str1 = ''.join('{:02x}'.format(x) for x in digest1) 
-            digest_str2 = ''.join('{:02x}'.format(x) for x in digest2) 
+            digest_str1 = ''.join('{:02x}'.format(x) for x in digest1)
+            digest_str2 = ''.join('{:02x}'.format(x) for x in digest2)
             if digest1 != digest2:
                 message += " The digests provided were 0x{} and 0x{} respectively.".format(digest_str1, digest_str2)
             else:
@@ -34,7 +34,7 @@ def checkCollision():
     except:
         pass
     if success:
-        resp = jsonify({"success": success, "flag": "RC{I_am_th3_gr3@t3st_h@XOR_3v@}"})
+        resp = jsonify({"success": success, "flag": "RITSEC{I_am_th3_gr3@t3st_h@XOR_3v@}"})
         resp.status_code = 202
     else:
         resp = jsonify({"success": success, "message": message})
