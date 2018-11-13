@@ -62,12 +62,20 @@ Type: File
 #### Prompt
 It's a two step problem
 
-### 400
-Title: Burn the candle on both ends
+### 500
+Title: music.txt
 Author: 1cysw0rdk0 & oneNutW0nder  
 Type: File
 
 #### Prompt
-It's a two step problem
+Name that tune
 
 ## Misc
+
+### 200
+Title: Check out this cool filter
+Author: 1cysw0rdk0 & oneNutW0nder  
+Type: File
+
+#### Prompt
+https://www.youtube.com/watch?v=zA52uNzx7Y4
