@@ -13,7 +13,7 @@ from PIL import Image
 
 def changeImage():
     # open the image you want to encode data to
-    image = Image.open('spielberg_dino_c.jpg')
+    image = Image.open('spielburg_dino.png')
     
     # This the string that will be encoded into the image
     flag = 'RITSEC{TIL_JPEG_COMPRESSION_MESSES_WITH_RGB_VALUES}'
