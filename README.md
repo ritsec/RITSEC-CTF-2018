@@ -22,60 +22,13 @@ curl -X POST http://{{INSERT_SERVER}}/checkCollision \
 
 If the strings are a valid collision then the flag will be returned.
 
-### 300
-Name: The Proof is in the Pudding  
-Author: Cictrone  
-Type: File  
-
-#### Prompt
-_None_
-
-### 500
-Name: DarkPearAI  
-Author: Cictrone  
-Type: File  
-
-#### Prompt
-3:371781196966866977144706219746579136461491261
-
-Person1: applepearblue
-Person2: darkhorseai
-
-What is their secret key?
-(Submit like RC{KEY_GOES_HERE})
-
-## Forensics
-
-### 300
-Title: Think Outside the Box  
-Author: 1cysw0rdk0 & oneNutW0nder  
-Type: File
-
-#### Prompt
-Look Closely
-
-### 400
-Title: Burn the candle on both ends
-Author: 1cysw0rdk0 & oneNutW0nder  
-Type: File
-
-#### Prompt
-It's a two step problem
-
-### 500
-Title: music.txt
-Author: 1cysw0rdk0 & oneNutW0nder  
-Type: File
-
-#### Prompt
-Name that tune
-
-## Misc
-
-### 200
-Title: Check out this cool filter
-Author: 1cysw0rdk0 & oneNutW0nder  
-Type: File
-
-#### Prompt
-https://www.youtube.com/watch?v=zA52uNzx7Y4
+| Category  | Points | Title                        | Author                    | Type          |
+|-----------|--------|------------------------------|---------------------------|---------------|
+| Crypto    | 150    | CictroHash                   | Cictrone                  | file & server |
+| Crypto    | 300    | The Proof is in the Pudding  | Cictrone                  | file          |
+| Crypto    | 500    | DarkPearAI                   | Cictrone                  | file          |
+| Forensics | 250    | Think Outside the Box        | 1cysw0rdk0 & oneNutW0nder | file          |
+| Forensics | 400    | Burn the candle on both ends | 1cysw0rdk0 & oneNutW0nder | file          |
+| Misc      | 200    | Check out this cool filter   | 1cysw0rdk0 & oneNutW0nder | file          |
+| Misc      | 300    | Lite Forensics               | knife                     | file          |
+| Misc      | 400    | music.txt                    | 1cysw0rdk0 & oneNutW0nder | file          |
