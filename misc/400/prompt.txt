@@ -1,2 +1,0 @@
-Title: music.txt
-Prompt: Name that tune
