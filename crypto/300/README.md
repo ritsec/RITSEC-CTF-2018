@@ -1,6 +1,8 @@
 # Crypto 300: The Proof is in the Pudding
 **Author**: Cictrone
 
+**Flag**: RITSEC{iamthegraphflag}
+
 ## Description
 _None_
 

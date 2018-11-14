@@ -1,6 +1,8 @@
 # Crypto 150: CictroHash
 **Author**: Cictrone  
 
+**Flag**: RITSEC{I_am_th3_gr3@t3st_h@XOR_3v@}
+
 ## Description
 See the attached PDF for an amazing new Cryptographic Hash Function called
 CictroHash. For this challenge you must implement the described Hash Function

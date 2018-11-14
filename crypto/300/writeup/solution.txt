@@ -38,5 +38,5 @@ alphabet
 The flag is slightly hidden through a transposition cipher, thus you must then
 transpose the matrix.
 
-then the flag is RC{iamthegraphflag}
+then the flag is RITSEC{iamthegraphflag}
 
