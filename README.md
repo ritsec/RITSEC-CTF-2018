@@ -14,3 +14,4 @@
 | Misc      | 200    | Check out this cool filter   | 1cysw0rdk0 & oneNutW0nder | file          |
 | Misc      | 300    | Lite Forensics               | knife                     | file          |
 | Misc      | 400    | music.txt                    | 1cysw0rdk0 & oneNutW0nder | file          |
+| Web       | 250    | Crazy Train                  | hulto                     | server        |
