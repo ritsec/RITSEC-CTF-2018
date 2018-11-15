@@ -4,7 +4,7 @@ RUN useradd -s /bin/bash -m -d /home/pwn2user pwn2user
 WORKDIR /home/pwn2user
 
 RUN apt-get update && \
-    apt-get -y install socat
+    apt-get -y install socat libc6-dev-i386
 
 ADD ./dist/pwn2 /home/pwn2user/pwn2
 RUN chown pwn2user:pwn2user /home/pwn2user/pwn2
