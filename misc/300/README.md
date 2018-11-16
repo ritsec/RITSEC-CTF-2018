@@ -1,24 +1,16 @@
-# FORS-H
+# Misc 300: music.txt
+**Author**: 1cysw0rdk0 & oneNutW0nder
 
-__Author:__ Micah Martin (mjm5097@rit.edu)
+**Flag**: RITSEC{never_gonna_give_you_up}
 
-__Title:__ Lite Forensics
+## Description
+Name that tune
 
-__Description:__ There is a flag stored in this database somehow....
+## Deployment
+The following files must be provided to the user:
+- [`music.txt`](./music.txt)
 
-__Hint (No free hints please):__ Are we sure it's in the data?
-
-__Flag Format:__ RITSEC{XXXX}
-
-__Category:__ Forensics
-
-__Rank:__ Medium/Hard
-
-## Usage
-The only file that needs to be given to the competitors is [`file_format.sql`](./file_format.sql). **Please keep the name the same as its a slight hint.**
-
-## Write up
-You can find a write up of the challenge [here](./writeup.md).
-
-## Changing the Flag
-This challenge is completely scripted and can be regenerated with a different flag at any point. Please reach out to Micah if thats the case as the writeup will need to be updated with the new hax values.
+## Writeup
+The writeup directory contains the following files:
+- [`writeup.docx`](./writeup/writeup.docx): A description of how the challenge
+  would be solved

@@ -1,6 +1,8 @@
 # Misc 200: Check out this cool filter
 **Author**: 1cysw0rdk0 & oneNutW0nder
 
+**Flag**: RITSEC{TIL_JPEG_COMPRESSION_MESSES_WITH_RGB_VALUES}
+
 ## Description
 https://www.youtube.com/watch?v=zA52uNzx7Y4
 

@@ -18,6 +18,8 @@ curl -X POST http://{{INSERT_SERVER}}/checkCollision \
 
 If the strings are a valid collision then the flag will be returned.
 
+NOTE: requests to this server are being rate-limited for obvious reasons.
+
 ## Deployment
 The following files must be provided to the user:
 - [`CictroHash.pdf`](./CictroHash.pdf)

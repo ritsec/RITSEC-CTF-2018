@@ -1,5 +1,7 @@
-# Forensics 250: Think Outside the Box
+# Forensics 250: I am a Stegosaurus
 **Author**: 1cysw0rdk0 & oneNutW0nder
+
+**Flag**: RITSEC{th1nk_0uts1d3_th3_b0x}
 
 ## Description
 Look Closely

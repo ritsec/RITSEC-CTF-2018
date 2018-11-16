@@ -8,7 +8,7 @@ __Description:__ Patch away all your backdoors!
 
 __Hint:__ Did you rebuild?
 
-__Flag Format:__ RITSEC{XXXX}
+__Flag:__ RITSEC{VULNS_4R3_BAD_}
 
 __Category:__ Misc.
 
