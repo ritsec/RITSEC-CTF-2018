@@ -5,6 +5,7 @@
 |-----------|--------|-------------------------------------|---------------------------|---------------|----------|
 | Binary    | 150    | Freeze!                             | hulto                     | file          | Yes      |
 | Binary    | 250    | Yet Another HR Management Framework | fpasswd                   | file & server |          |
+| Crypto    | 100    | Lost In Transmission                | oneNutW0nder              | file          |          |
 | Crypto    | 150    | CictroHash                          | Cictrone                  | file & server |          |
 | Crypto    | 300    | The Proof is in the Pudding         | Cictrone                  | file          | Yes      |
 | Crypto    | 500    | DarkPearAI                          | Cictrone                  | file          | Yes      |
