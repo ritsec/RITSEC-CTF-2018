@@ -1,0 +1,4 @@
+Name: Lost In Transmission
+
+Challenge: Found in: "Lost_In_Transmission.txt"
+Hint: Attention to detail is key
