@@ -1,4 +1,4 @@
-# Forensics ???: Sponsored by nexthop!
+# Forensics 350: From our friends at nexthop!
 **Author**: sandw1ch
 
 **Flag**: RS{1T5_4LW4Y5_DN5}
