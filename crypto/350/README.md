@@ -1,7 +1,7 @@
 # Crypto 350: Who drew on my program?
 **Author**: sandw1ch
 
-**Flag**: RITSEC{kn0wnAtk}
+**Flag**: RITSEC{b4dcbc#g}
 
 ## Description
 I don't remember what my IV was I used for encryption and then someone painted over my code :(.  
