@@ -12,6 +12,7 @@
 | Forensics | 300    | PCAP Me If You Can           | hulto                     | file          |          |
 | Forensics | 500    | Lite Forensics               | knif3                     | file          | Yes      |
 | Misc      | 100    | Patch Patch                  | knif3                     | file          | Yes      |
+| Misc      | 150    | RIP                          | oneNutW0nder              | file          |          |
 | Misc      | 200    | Check out this cool filter   | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
 | Misc      | 300    | music.txt                    | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
 | Web       | 250    | Crazy Train                  | hulto                     | server        |          |
