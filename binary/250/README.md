@@ -1,4 +1,4 @@
-# Binary 250: Let's C how that framework GOes!
+# Binary 250: Yet Another HR Management Framework
 
 **Author**: `fpasswd`
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-Although there has been a ton of human resources management framework out there, `fpasswd` still wants to write his own framework. Go check it out and see how that goes!
+Although there has been a ton of human resources management frameworks out there, `fpasswd` still wants to write his own framework. Check it out and SEE how that GOes!
 
 ## Deployment
 
