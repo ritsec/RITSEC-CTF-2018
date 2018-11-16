@@ -24,9 +24,9 @@ ENV DEBIAN_FRONTEND noninteractive
 ADD index.html /var/www/
 ADD stats /usr/lib/cgi-bin/
 ADD flag.txt /opt/
+RUN chown root:root /opt/flag.txt
 RUN chown www-data:www-data /usr/lib/cgi-bin/stats
 RUN chmod 644 /opt/flag.txt
-RUN chown root:root /opt/flag.txt
 RUN chmod u+x /usr/lib/cgi-bin/stats
 
 # Clean up
