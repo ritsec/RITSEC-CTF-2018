@@ -9,8 +9,8 @@
 | Crypto    | 500    | DarkPearAI                   | Cictrone                  | file          | Yes      |
 | Forensics | 150    | Burn the candle on both ends | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
 | Forensics | 250    | I am a Stegosaurus           | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
-| Forensics | 300    | Lite Forensics               | knif3                     | file          | Yes      |
-| Forensics | 500    | PCAP Me If You Can           | hulto                     | file          |          |
+| Forensics | 300    | PCAP Me If You Can           | hulto                     | file          |          |
+| Forensics | 500    | Lite Forensics               | knif3                     | file          | Yes      |
 | Misc      | 100    | Patch Patch                  | knif3                     | file          | Yes      |
 | Misc      | 200    | Check out this cool filter   | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
 | Misc      | 300    | music.txt                    | 1cysw0rdk0 & oneNutW0nder | file          | Yes      |
