@@ -1,6 +1,8 @@
 # Web 250: Crazy Train
 **Author**: hulto
 
+**Flag**: RITSEC{W0wzers_who_new_3x3cuting_c0de_to_debug_was_@_bad_idea}
+
 ## Description
 _None_
 

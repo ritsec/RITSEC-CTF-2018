@@ -1,7 +1,7 @@
-# Reversing ???: One of these things doesn't belong!
+# Reversing 300: One of these things doesn't belong!
 **Author**: sandw1ch 
 
-**Flag**: I just realized Brad never told me the flag, so oops.
+**Flag**: RS{VECTors}
 
 ## Description
 *FLAG FORMAT IS RS{}*
