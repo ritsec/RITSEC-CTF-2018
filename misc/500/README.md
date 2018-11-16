@@ -1,4 +1,4 @@
-# Misc 300: music.txt
+# Misc 500: music.txt
 **Author**: 1cysw0rdk0 & oneNutW0nder
 
 **Flag**: RITSEC{never_gonna_give_you_up}
@@ -8,7 +8,7 @@ Name that tune
 
 ## Deployment
 The following files must be provided to the user:
-- [`music.txt`](./music.txt)
+- [`music.png`](./music.png)
 
 ## Writeup
 The writeup directory contains the following files:
