@@ -22,7 +22,7 @@ INSERT INTO spaceships (name, kills, captain) VALUES
 ('LbtebKe6yrU8vEnx', 9001,'RITSEC{hey_there_h4v3_s0me_point$_3ny2Lx}'),
 ('LWSS Valhalla', 26,'Derek Drummond');
 
-CREATE USER 'webserver'@'%' IDENTIFIED BY 'password2';
+CREATE USER 'webserver'@'%' IDENTIFIED BY 'PP6L43BZpGUi9zC5oaRTbKQT4XBm';
 GRANT SELECT ON challenge.* to 'webserver'@'%';
 
 FLUSH PRIVILEGES;

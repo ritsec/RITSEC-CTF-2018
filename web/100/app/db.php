@@ -1,7 +1,7 @@
 <?php
 $servername = "database";
 $username = "webserver";
-$password = "password2";
+$password = "PP6L43BZpGUi9zC5oaRTbKQT4XBm";
 $dbname = "challenge";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
