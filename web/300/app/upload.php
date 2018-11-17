@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $upload_path = $upload_dir . md5($upload_time) . $ext;
-    mkdir($upload_dir, 770, true);
+    mkdir($upload_dir, 0770, true);
 
     //Enforce maximum of 10 files
     $dir = new DirLister($upload_dir);
