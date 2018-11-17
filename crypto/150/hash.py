@@ -91,7 +91,7 @@ def hash_func(string):
         for i in range(len(s)):
             S[i] ^= s[i]
         S = f(S)
-    return S[4:]
+    return S[:4]
 
 
 def main():
@@ -125,5 +125,5 @@ def other_main():
 
 
 if __name__ == '__main__':
-    # other_main()
+    #other_main()
     main()
