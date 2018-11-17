@@ -16,7 +16,6 @@
 | Crypto    | 500    | DarkPearAI                          | Cictrone                  | file          |      |
 | Forensics | 100    | Notes                               | oneNutW0nder              | file          |      |
 | Forensics | 150    | Burn the candle on both ends        | 1cysw0rdk0 & oneNutW0nder | file          |      |
-| Forensics | 175    | Burn the candle on both ends        | 1cysw0rdk0 & oneNutW0nder | file          |      |
 | Forensics | 250    | I am a Stegosaurus                  | 1cysw0rdk0 & oneNutW0nder | file          |      |
 | Forensics | 300    | PCAP Me If You Can                  | hulto                     | file          |      |
 | Forensics | 350    | From our friends at nexthop!        | sandw1ch                  | file          |      |
