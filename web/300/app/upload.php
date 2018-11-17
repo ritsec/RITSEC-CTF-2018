@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $ext = "";
     if (strpos($filename, '.') !== false) {
         $f_ext = explode(".", $filename)[1];
-        if (ctype_alnum($f_ext) && stripos($f_ext, "php") === false) {
+        if (ctype_alnum($f_ext) && stripos($f_ext, "php") === false && stripos($f_ext, "pht") === false) {
             $ext = "." . $f_ext;
         } else {
             $ext = ".dat";
