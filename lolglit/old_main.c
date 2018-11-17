@@ -19,26 +19,31 @@ int main(int argc, char **argv){
     setvbuf(stderr, NULL, _IONBF, 0);
 
     char buf[32];
-    char buf_dup[32];
+    char *error = malloc(32);
+    int c;
+    char *cvalue = NULL;
+    strncpy(error, "Error   \0", 9);
 
+    while((c = getopt(argc,argv, "e:")) != -1){
+        switch(c){
+            case 'e':
+                free(error);
+                error = optarg;
+                break;
+
+        }
+    }
 
     while(fgets(buf, 32, stdin)){
     }
-    strncpy(buf_dup, buf, 32); 
     sanitize(buf);
     char command[64];
-//    sprintf(command, "echo %s &>/dev/null || echo %s | figlet | lolcat  && echo %s | figlet | lolcat ", buf, buf_dup, buf);
-    sprintf(command, "echo %s", buf);
-    int ret = system(command);
-    printf("ret: %d\n", ret);
-    if (ret != 0){
-        sprintf(command, "echo %s | figlet | lolcat", buf_dup);
-    }else {
-        sprintf(command, "echo %s | figlet | lolcat", buf);
-    }
-    ret = system(command);
+    sprintf(command, "echo %s || echo %s | figlet | lolcat  && echo %s | figlet | lolcat ", buf, error, buf);
 
-
-
+    system(command);
 }
+
+
+
+
 
