@@ -22,6 +22,8 @@ def checkCollision():
         request_json = request_obj.get_json()
         if request_json is None or ('str1' not in request_json or 'str2' not in request_json):
             message = "You forgot to pass both strings as JSON Params :( - or didn't set Content-Type"
+        if str(request_json['str1']) == str(request_json['str2']):
+            message = "The Strings cannot be the same"
         else:
             digest1 = hash_func(str(request_json['str1']))
             digest2 = hash_func(str(request_json['str2']))
