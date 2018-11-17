@@ -6,6 +6,8 @@
 
 ## Description
 
+`fpasswd` is working late in the lab and he's really hungry. Give him some fud, he may give you something in return.
+
 ## Deployment
 
 - Files in the `dist` directory must be given to the user.
