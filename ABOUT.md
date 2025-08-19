@@ -1,7 +1,7 @@
 # RITSEC CTF 2018 Information
 
 ## Teams
-Each team may have up to 5 team members. Teams comprised of 5 RIT students are
+Each team may have up to 5 team members. Teams comprising 5 RIT students are
 eligible for prizes.
 
 Each team should create a single account in the CTF engine. This account should
